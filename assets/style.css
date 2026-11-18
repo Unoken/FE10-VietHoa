@@ -76,7 +76,7 @@ h3 { font-size: 18px; margin: 26px 0 8px; }
   background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; }
 .miles .id { font-weight: 700; color: var(--gold2); }
 .miles .desc { color: var(--muted); font-size: 14px; }
-.tag { font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); }
+.tag { white-space: nowrap; font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); }
 .tag.done { color: var(--ok); border-color: var(--ok); }
 .tag.doing { color: var(--warn); border-color: var(--warn); }
 .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
